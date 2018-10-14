@@ -7,5 +7,7 @@ service:
   - /*
   discoveryTTL: 5
   environment:
-    CRYSTAL_URL: "http://ecsdemo-crystal.mu-service-ecsdemo-crystal/crystal"
-    NODEJS_URL: "http://ecsdemo-nodejs.mu-service-ecsdemo-nodejs/"
+    #CRYSTAL_URL: "http://ecsdemo-crystal.mu-service-ecsdemo-crystal/crystal"
+    #NODEJS_URL: "http://ecsdemo-nodejs.mu-service-ecsdemo-nodejs/"
+    CRYSTAL_URL: "http://ecsdemo-crystal/crystal"
+    NODEJS_URL: "http://ecsdemo-nodejs/"
